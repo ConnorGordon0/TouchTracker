@@ -1,5 +1,7 @@
 //
-//  Copyright © 2015 Big Nerd Ranch
+//  Connor Gordon 
+//  Date: 4/22/17
+//  Class: CSC2310
 //
 
 import UIKit
@@ -15,8 +17,10 @@ class DrawView: UIView, UIGestureRecognizerDelegate
     var currentCircle = Circle()
     var finishedCircles = [Circle]()
     
+    // Long Touch Gesture Reconizer
     var longPressReconizer: UILongPressGestureRecognizer!
     
+    // Velocity Variables for Line Size
     var maxRecordedVelocity: CGFloat = CGFloat.leastNonzeroMagnitude
     var minRecordedVelocity: CGFloat = CGFloat.greatestFiniteMagnitude
     var currentVelocity: CGFloat = 0

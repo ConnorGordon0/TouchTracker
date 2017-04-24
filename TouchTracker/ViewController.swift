@@ -1,7 +1,8 @@
 //
-//  Copyright © 2015 Big Nerd Ranch
+//  Connor Gordon
+//  Date: 4/22/17
+//  Class: CSC2310
 //
-
 import UIKit
 
 class ViewController: UIViewController {
